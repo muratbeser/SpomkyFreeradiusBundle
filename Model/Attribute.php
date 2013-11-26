@@ -2,14 +2,14 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
-class Freeradius implements FreeradiusInterface
+class Attribute implements AttributeInterface
 {
-    protected $attribute;
+    protected $name;
     protected $op;
     protected $value;
     
-    public function getAttribute() {
-        return $this->attribute;
+    public function getName() {
+        return $this->name;
     }
     
     public function getOp() {

@@ -5,6 +5,18 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
+        <service id="spomky_freeradius.user_manager.default" class="Spomky\FreeradiusBundle\Model\UserManager">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument>%spomky_freeradius.user.class%</argument>
+        </service>
+        <service id="spomky_freeradius.group_manager.default" class="Spomky\FreeradiusBundle\Model\GroupManager">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument>%spomky_freeradius.group.class%</argument>
+        </service>
+        <service id="spomky_freeradius.accounting_manager.default" class="Spomky\FreeradiusBundle\Model\AccountingManager">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument>%spomky_freeradius.accounting.class%</argument>
+        </service>
     </services>
 
 </container>

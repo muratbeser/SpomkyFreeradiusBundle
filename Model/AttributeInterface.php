@@ -2,9 +2,9 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
-interface RoleInterface
+interface AttributeInterface
 {
-    public function getAttribute();
+    public function getName();
     public function getOp();
     public function getValue();
 }

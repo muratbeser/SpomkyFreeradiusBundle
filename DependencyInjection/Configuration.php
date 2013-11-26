@@ -15,10 +15,13 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('spomky_freeradius');
 
-        $supportedDrivers = array('orm');
+        $supportedDrivers = array(
+            'orm',
+        );
 
         $rootNode
             ->children()
+
                 ->scalarNode('db_driver')
                     ->validate()
                         ->ifNotInArray($supportedDrivers)
@@ -28,8 +31,15 @@ class Configuration implements ConfigurationInterface
                     ->isRequired()
                     ->cannotBeEmpty()
                 ->end()
-            ->end();
 
-        return $treeBuilder;
+                ->scalarNode('user_class')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('user_manager')->defaultValue('spomky_freeradius.user_manager.default')->end()
+
+                ->scalarNode('group_class')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('group_manager')->defaultValue('spomky_freeradius.group_manager.default')->end()
+
+                ->scalarNode('accounting_class')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('accounting_manager')->defaultValue('spomky_freeradius.accounting_manager.default')->end()
+            ->end();
     }
 }
