@@ -26,6 +26,12 @@ class SpomkyFreeradiusExtension extends Extension
         $container->setAlias('spomky_freeradius.group_manager', $config['group_manager']);
         $container->setParameter('spomky_freeradius.group.class', $config['group_class']);
 
+        $container->setAlias('spomky_freeradius.nas_manager', $config['nas_manager']);
+        $container->setParameter('spomky_freeradius.nas.class', $config['nas_class']);
+
+        $container->setAlias('spomky_freeradius.network_manager', $config['network_manager']);
+        $container->setParameter('spomky_freeradius.network.class', $config['network_class']);
+
         $container->setAlias('spomky_freeradius.accounting_manager', $config['accounting_manager']);
         $container->setParameter('spomky_freeradius.accounting.class', $config['accounting_class']);
     }

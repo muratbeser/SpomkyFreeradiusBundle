@@ -13,6 +13,14 @@
             <argument type="service" id="doctrine.orm.entity_manager" />
             <argument>%spomky_freeradius.group.class%</argument>
         </service>
+        <service id="spomky_freeradius.nas_manager.default" class="Spomky\FreeradiusBundle\Model\NasManager">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument>%spomky_freeradius.nas.class%</argument>
+        </service>
+        <service id="spomky_freeradius.network_manager.default" class="Spomky\FreeradiusBundle\Model\NetworkManager">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <argument>%spomky_freeradius.network.class%</argument>
+        </service>
         <service id="spomky_freeradius.accounting_manager.default" class="Spomky\FreeradiusBundle\Model\AccountingManager">
             <argument type="service" id="doctrine.orm.entity_manager" />
             <argument>%spomky_freeradius.accounting.class%</argument>

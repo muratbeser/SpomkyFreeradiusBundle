@@ -14,7 +14,8 @@ class AccountingManager implements AccountingManagerInterface
      */
     protected $repository;
 
-    public function __construct(EntityManager $em, $class) {
+    public function __construct(EntityManager $em, $class)
+    {
         $this->em = $em;
         $this->repository = $em->getRepository($class);
     }
@@ -22,7 +23,8 @@ class AccountingManager implements AccountingManagerInterface
     /**
      * {@inheritdoc}
      */
-    public function getRepository() {
+    public function getRepository()
+    {
         return $this->repository;
     }
 }

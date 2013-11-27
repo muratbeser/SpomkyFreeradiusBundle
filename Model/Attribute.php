@@ -7,16 +7,19 @@ class Attribute implements AttributeInterface
     protected $name;
     protected $op;
     protected $value;
-    
-    public function getName() {
+
+    public function getName()
+    {
         return $this->name;
     }
-    
-    public function getOp() {
+
+    public function getOp()
+    {
         return $this->op;
     }
-    
-    public function getValue() {
+
+    public function getValue()
+    {
         return $this->value;
     }
 }

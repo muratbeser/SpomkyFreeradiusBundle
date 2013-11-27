@@ -6,27 +6,38 @@ class User implements UserInterface
 {
     protected $name;
     protected $groups;
+    protected $network;
     protected $replies;
     protected $checks;
     protected $accountings;
-    
-    public function getName() {
+
+    public function getName()
+    {
         return $this->name;
     }
-    
-    public function getGroups() {
+
+    public function getGroups()
+    {
         return $this->groups;
     }
-    
-    public function getReplies() {
+
+    public function getNetwork()
+    {
+        return $this->network;
+    }
+
+    public function getReplies()
+    {
         return $this->replies;
     }
-    
-    public function getChecks() {
-        return $this->replies;
+
+    public function getChecks()
+    {
+        return $this->checks;
     }
-    
-    public function getAccountings() {
+
+    public function getAccountings()
+    {
         return $this->accountings;
     }
 }

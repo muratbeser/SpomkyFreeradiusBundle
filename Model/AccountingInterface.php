@@ -10,6 +10,7 @@ interface AccountingInterface
 
     public function getUniqueId();
 
+    public function getNas();
     public function getNasIpAddress();
     public function getNasPortId();
     public function getNasPortType();

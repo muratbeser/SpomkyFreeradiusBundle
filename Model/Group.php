@@ -8,20 +8,24 @@ class Group implements GroupInterface
     protected $users;
     protected $replies;
     protected $checks;
-    
-    public function getName() {
+
+    public function getName()
+    {
         return $this->name;
     }
-    
-    public function getUsers() {
+
+    public function getUsers()
+    {
         return $this->users;
     }
-    
-    public function getReplies() {
+
+    public function getReplies()
+    {
         return $this->replies;
     }
-    
-    public function getChecks() {
+
+    public function getChecks()
+    {
         return $this->replies;
     }
 }

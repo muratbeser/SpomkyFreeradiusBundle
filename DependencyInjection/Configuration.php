@@ -38,6 +38,12 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('group_class')->isRequired()->cannotBeEmpty()->end()
                 ->scalarNode('group_manager')->defaultValue('spomky_freeradius.group_manager.default')->end()
 
+                ->scalarNode('nas_class')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('nas_manager')->defaultValue('spomky_freeradius.nas_manager.default')->end()
+
+                ->scalarNode('network_class')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('network_manager')->defaultValue('spomky_freeradius.network_manager.default')->end()
+
                 ->scalarNode('accounting_class')->isRequired()->cannotBeEmpty()->end()
                 ->scalarNode('accounting_manager')->defaultValue('spomky_freeradius.accounting_manager.default')->end()
             ->end();
