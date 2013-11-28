@@ -11,6 +11,8 @@ Freeradius Bundle
 [![Daily Downloads](https://poser.pugx.org/spomky/freeradius-bundle/d/daily.png)](https://packagist.org/packages/spomky/freeradius-bundle)
 [![Latest Unstable Version](https://poser.pugx.org/spomky/freeradius-bundle/v/unstable.png)](https://packagist.org/packages/spomky/freeradius-bundle)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d/big.png)](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d)
+
 This bundle will help you to interact with your Freeradius Server SQL storage.
 
 For example, you can manage your users, groups and get accountings (input/output, sessions duration…).
