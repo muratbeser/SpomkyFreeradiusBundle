@@ -46,11 +46,6 @@ class Accounting implements AccountingInterface
         return $this->user;
     }
 
-    public function getDevice()
-    {
-        return $this->device;
-    }
-
     public function getUniqueId()
     {
         return $this->acctuniqueid;

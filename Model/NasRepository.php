@@ -17,7 +17,7 @@ class NasRepository extends EntityRepository implements NasRepositoryInterface
         ->andWhere('a.acctstarttime >= :date_start')
         ->andWhere('a.acctstarttime < :date_end')
         ->setParameter('date_start', $date_start)
-        ->setParameter('date_end', $date_end->modify("+1 day"))
+        ->setParameter('date_end', $date_end)
         ->setParameter('id', $nas)
         ->getQuery()
         ->execute();
@@ -34,7 +34,7 @@ class NasRepository extends EntityRepository implements NasRepositoryInterface
         ->andWhere('a.acctstarttime >= :date_start')
         ->andWhere('a.acctstarttime < :date_end')
         ->setParameter('date_start', $date_start)
-        ->setParameter('date_end', $date_end->modify("+1 day"))
+        ->setParameter('date_end', $date_end)
         ->setParameter('id', $nas)
         ->getQuery()
         ->execute();

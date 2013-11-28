@@ -18,7 +18,7 @@ class NetworkRepository extends EntityRepository implements NetworkRepositoryInt
         ->andWhere('a.acctstarttime >= :date_start')
         ->andWhere('a.acctstarttime < :date_end')
         ->setParameter('date_start', $date_start)
-        ->setParameter('date_end', $date_end->modify("+1 day"))
+        ->setParameter('date_end', $date_end)
         ->setParameter('id', $network)
         ->getQuery()
         ->execute();
@@ -36,7 +36,7 @@ class NetworkRepository extends EntityRepository implements NetworkRepositoryInt
         ->andWhere('a.acctstarttime >= :date_start')
         ->andWhere('a.acctstarttime < :date_end')
         ->setParameter('date_start', $date_start)
-        ->setParameter('date_end', $date_end->modify("+1 day"))
+        ->setParameter('date_end', $date_end)
         ->setParameter('id', $network)
         ->getQuery()
         ->execute();

@@ -2,29 +2,14 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
-class GroupManager implements GroupManagerInterface
+use Spomky\FreeradiusBundle\Model\GroupInterface;
+
+class GroupManager extends BaseManager implements GroupManagerInterface
 {
-    /**
-     * @var \Doctrine\ORM\EntityManager
-     */
-    protected $em;
-
-    /**
-     * @var \Doctrine\ORM\EntityRepository
-     */
-    protected $repository;
-
     public function __construct(EntityManager $em, $class)
     {
-        $this->em = $em;
-        $this->repository = $em->getRepository($class);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getRepository()
-    {
-        return $this->repository;
+        parent::__construct($em, $class);
+        if (!$this->getRepository() instanceof GroupInterface) {
+            throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\GroupInterface");
     }
 }

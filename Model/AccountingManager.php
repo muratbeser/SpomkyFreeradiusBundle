@@ -2,29 +2,14 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
-class AccountingManager implements AccountingManagerInterface
+use Spomky\FreeradiusBundle\Model\AccountingInterface;
+
+class AccountingManager extends BaseManager implements AccountingManagerInterface
 {
-    /**
-     * @var \Doctrine\ORM\EntityManager
-     */
-    protected $em;
-
-    /**
-     * @var \Doctrine\ORM\EntityRepository
-     */
-    protected $repository;
-
     public function __construct(EntityManager $em, $class)
     {
-        $this->em = $em;
-        $this->repository = $em->getRepository($class);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getRepository()
-    {
-        return $this->repository;
+        parent::__construct($em, $class);
+        if (!$this->getRepository() instanceof AccountingInterface) {
+            throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\AccountingInterface");
     }
 }
