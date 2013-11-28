@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Doctrine\ORM\EntityManager;
+
 class BaseManager implements BaseManagerInterface
 {
     /**

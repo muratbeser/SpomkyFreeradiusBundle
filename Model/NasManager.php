@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Doctrine\ORM\EntityManager;
+
 use Spomky\FreeradiusBundle\Model\NasInterface;
 
 class NasManager extends BaseManager implements NasManagerInterface
@@ -11,6 +13,7 @@ class NasManager extends BaseManager implements NasManagerInterface
         parent::__construct($em, $class);
         if (!$this->getRepository() instanceof NasInterface) {
             throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\NasInterface");
+        }
     }
 
     public function getSumBandwidth(NasInterface $nas, \Datetime $date_start, \Datetime $date_end)

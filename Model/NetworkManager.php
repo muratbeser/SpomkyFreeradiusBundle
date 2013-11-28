@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Doctrine\ORM\EntityManager;
+
 use Spomky\FreeradiusBundle\Model\NetworkInterface;
 
 class NetworkManager extends BaseManager implements NetworkManagerInterface
@@ -11,6 +13,7 @@ class NetworkManager extends BaseManager implements NetworkManagerInterface
         parent::__construct($em, $class);
         if (!$this->getRepository() instanceof NetworkInterface) {
             throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\NetworkInterface");
+        }
     }
 
     public function getSumBandwidth(NetworkInterface $network, \Datetime $date_start, \Datetime $date_end)

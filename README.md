@@ -5,6 +5,12 @@ Freeradius Bundle
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/badges/quality-score.png?s=cccff948dcd464bb4cad9c41de533b0aa5c46b17)](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/)
 [![Code Coverage](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/badges/coverage.png?s=be8ef949515673510864371328ee1b9c69f8b17f)](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/)
 
+[![Latest Stable Version](https://poser.pugx.org/spomky/freeradius-bundle/v/stable.png)](https://packagist.org/packages/spomky/freeradius-bundle)
+[![Total Downloads](https://poser.pugx.org/spomky/freeradius-bundle/downloads.png)](https://packagist.org/packages/spomky/freeradius-bundle)
+[![Montly Downloads](https://poser.pugx.org/spomky/freeradius-bundle/d/monthly.png)](https://packagist.org/packages/spomky/freeradius-bundle)
+[![Daily Downloads](https://poser.pugx.org/spomky/freeradius-bundle/d/daily.png)](https://packagist.org/packages/spomky/freeradius-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/spomky/freeradius-bundle/v/unstable.png)](https://packagist.org/packages/spomky/freeradius-bundle)
+
 This bundle will help you to interact with your Freeradius Server SQL storage.
 
 For example, you can manage your users, groups and get accountings (input/output, sessions duration…).
