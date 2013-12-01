@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Spomky\FreeradiusBundle\Model\NasInterface;
+
 class Nas implements NasInterface
 {
     protected $mac;

@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Spomky\FreeradiusBundle\Model\NetworkInterface;
+
 class Network implements NetworkInterface
 {
     protected $name;

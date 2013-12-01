@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Spomky\FreeradiusBundle\Model\AccountingInterface;
+
 class Accounting implements AccountingInterface
 {
     protected $session_id;

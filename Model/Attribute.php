@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Spomky\FreeradiusBundle\Model\AttributeInterface;
+
 class Attribute implements AttributeInterface
 {
     protected $name;

@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Spomky\FreeradiusBundle\Model\UserInterface;
+
 class User implements UserInterface
 {
     protected $name;

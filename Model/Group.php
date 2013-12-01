@@ -2,6 +2,8 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
+use Spomky\FreeradiusBundle\Model\GroupInterface;
+
 class Group implements GroupInterface
 {
     protected $name;
