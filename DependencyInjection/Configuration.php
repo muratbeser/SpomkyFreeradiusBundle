@@ -47,5 +47,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('accounting_class')->isRequired()->cannotBeEmpty()->end()
                 ->scalarNode('accounting_manager')->defaultValue('spomky_freeradius.accounting_manager.default')->end()
             ->end();
+
+        return $treeBuilder;
     }
 }
