@@ -1,7 +1,7 @@
 <?php
 
 namespace Spomky\FreeradiusBundle\Model;
-use SpomkyFreeradiusBundle\Model\NasInterface;
+use Spomky\FreeradiusBundle\Model\NasInterface;
 
 interface NasManagerInterface
 {

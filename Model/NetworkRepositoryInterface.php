@@ -2,7 +2,7 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
-use SpomkyFreeradiusBundle\Model\NetworkInterface;
+use Spomky\FreeradiusBundle\Model\NetworkInterface;
 
 interface NetworkRepositoryInterface
 {

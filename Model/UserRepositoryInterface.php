@@ -2,7 +2,7 @@
 
 namespace Spomky\FreeradiusBundle\Model;
 
-use SpomkyFreeradiusBundle\Model\UserInterface;
+use Spomky\FreeradiusBundle\Model\UserInterface;
 
 interface UserRepositoryInterface
 {

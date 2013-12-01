@@ -4,7 +4,7 @@ namespace Spomky\FreeradiusBundle\Model;
 
 use Doctrine\ORM\EntityRepository;
 
-use SpomkyFreeradiusBundle\Model\NasInterface;
+use Spomky\FreeradiusBundle\Model\NasInterface;
 
 class NasRepository extends EntityRepository implements NasRepositoryInterface
 {

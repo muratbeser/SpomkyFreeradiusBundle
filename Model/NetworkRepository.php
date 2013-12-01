@@ -4,7 +4,7 @@ namespace Spomky\FreeradiusBundle\Model;
 
 use Doctrine\ORM\EntityRepository;
 
-use SpomkyFreeradiusBundle\Model\NetworkInterface;
+use Spomky\FreeradiusBundle\Model\NetworkInterface;
 
 class NetworkRepository extends EntityRepository implements NetworkRepositoryInterface
 {

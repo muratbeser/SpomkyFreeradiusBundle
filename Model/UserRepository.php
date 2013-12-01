@@ -4,7 +4,7 @@ namespace Spomky\FreeradiusBundle\Model;
 
 use Doctrine\ORM\EntityRepository;
 
-use SpomkyFreeradiusBundle\Model\UserInterface;
+use Spomky\FreeradiusBundle\Model\UserInterface;
 
 class UserRepository extends EntityRepository implements UserRepositoryInterface
 {
