@@ -5,14 +5,15 @@ namespace Spomky\FreeradiusBundle\Model;
 use Doctrine\ORM\EntityManager;
 
 use Spomky\FreeradiusBundle\Model\NasInterface;
+use Spomky\FreeradiusBundle\Model\NasRepositoryInterface;
 
 class NasManager extends BaseManager implements NasManagerInterface
 {
     public function __construct(EntityManager $em, $class)
     {
         parent::__construct($em, $class);
-        if (!$this->getRepository() instanceof NasInterface) {
-            throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\NasInterface");
+        if (!$this->getRepository() instanceof NasRepositoryInterface) {
+            throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\NasRepositoryInterface");
         }
     }
 

@@ -5,14 +5,15 @@ namespace Spomky\FreeradiusBundle\Model;
 use Doctrine\ORM\EntityManager;
 
 use Spomky\FreeradiusBundle\Model\NetworkInterface;
+use Spomky\FreeradiusBundle\Model\NetworkRepositoryInterface;
 
 class NetworkManager extends BaseManager implements NetworkManagerInterface
 {
     public function __construct(EntityManager $em, $class)
     {
         parent::__construct($em, $class);
-        if (!$this->getRepository() instanceof NetworkInterface) {
-            throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\NetworkInterface");
+        if (!$this->getRepository() instanceof NetworkRepositoryInterface) {
+            throw new \Exception("The repository of class $class must implement Spomky\FreeradiusBundle\Model\NetworkRepositoryInterface");
         }
     }
 
