@@ -13,6 +13,8 @@ Freeradius Bundle
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d/big.png)](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d)
 
+[![Dependency Status](https://www.versioneye.com/user/projects/52caa89dec1375078b000274/badge.png)](https://www.versioneye.com/user/projects/52caa89dec1375078b000274)
+
 This bundle will help you to interact with your Freeradius Server SQL storage.
 
 For example, you can manage your users, groups and get accountings (input/output, sessions duration…).
