@@ -1,5 +1,5 @@
 {
-    "name": "spomky/freeradius-bundle",
+    "name": "spomky-labs/freeradius-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 Freeradius Bundle",
     "keywords": ["symfony2", "bundle", "feeradius"],
