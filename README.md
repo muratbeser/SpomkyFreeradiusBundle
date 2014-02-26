@@ -5,15 +5,11 @@ Freeradius Bundle
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/badges/quality-score.png?s=fe327405739dff5a1ff78b2d5ee87f0d8ab12250)](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/)
 [![Code Coverage](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/badges/coverage.png?s=4b4da5d7fe0eaf28d9e009f86782be691d8e7638)](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/)
 
-[![Latest Stable Version](https://poser.pugx.org/spomky/freeradius-bundle/v/stable.png)](https://packagist.org/packages/spomky/freeradius-bundle)
-[![Total Downloads](https://poser.pugx.org/spomky/freeradius-bundle/downloads.png)](https://packagist.org/packages/spomky/freeradius-bundle)
-[![Montly Downloads](https://poser.pugx.org/spomky/freeradius-bundle/d/monthly.png)](https://packagist.org/packages/spomky/freeradius-bundle)
-[![Daily Downloads](https://poser.pugx.org/spomky/freeradius-bundle/d/daily.png)](https://packagist.org/packages/spomky/freeradius-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/spomky/freeradius-bundle/v/unstable.png)](https://packagist.org/packages/spomky/freeradius-bundle)
-
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d/big.png)](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d)
 
 [![Dependency Status](https://www.versioneye.com/user/projects/530b13dfec137596d2000006/badge.png)](https://www.versioneye.com/user/projects/530b13dfec137596d2000006)
+
+[![Latest Stable Version](https://poser.pugx.org/spomky-labs/freeradius-bundle/v/stable.png)](https://packagist.org/packages/spomky-labs/freeradius-bundle) [![Total Downloads](https://poser.pugx.org/spomky-labs/freeradius-bundle/downloads.png)](https://packagist.org/packages/spomky-labs/freeradius-bundle) [![Latest Unstable Version](https://poser.pugx.org/spomky-labs/freeradius-bundle/v/unstable.png)](https://packagist.org/packages/spomky-labs/freeradius-bundle) [![License](https://poser.pugx.org/spomky-labs/freeradius-bundle/license.png)](https://packagist.org/packages/spomky-labs/freeradius-bundle)
 
 This bundle will help you to interact with your Freeradius Server SQL storage.
 
