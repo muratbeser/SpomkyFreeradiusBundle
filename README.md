@@ -1,9 +1,9 @@
 Freeradius Bundle
 =================
 
-[![Build Status](https://travis-ci.org/Spomky/SpomkyFreeradiusBundle.png?branch=master)](https://travis-ci.org/Spomky/SpomkyFreeradiusBundle)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/badges/quality-score.png?s=cccff948dcd464bb4cad9c41de533b0aa5c46b17)](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/)
-[![Code Coverage](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/badges/coverage.png?s=be8ef949515673510864371328ee1b9c69f8b17f)](https://scrutinizer-ci.com/g/Spomky/SpomkyFreeradiusBundle/)
+[![Build Status](https://travis-ci.org/Spomky-Labs/SpomkyFreeradiusBundle.png?branch=master)](https://travis-ci.org/Spomky-Labs/SpomkyFreeradiusBundle)
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/badges/quality-score.png?s=fe327405739dff5a1ff78b2d5ee87f0d8ab12250)](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/)
+[![Code Coverage](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/badges/coverage.png?s=4b4da5d7fe0eaf28d9e009f86782be691d8e7638)](https://scrutinizer-ci.com/g/Spomky-Labs/SpomkyFreeradiusBundle/)
 
 [![Latest Stable Version](https://poser.pugx.org/spomky/freeradius-bundle/v/stable.png)](https://packagist.org/packages/spomky/freeradius-bundle)
 [![Total Downloads](https://poser.pugx.org/spomky/freeradius-bundle/downloads.png)](https://packagist.org/packages/spomky/freeradius-bundle)
@@ -13,7 +13,7 @@ Freeradius Bundle
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d/big.png)](https://insight.sensiolabs.com/projects/6bf3be17-dcf9-426a-be64-bbe47ebdc41d)
 
-[![Dependency Status](https://www.versioneye.com/user/projects/52caa89dec1375078b000274/badge.png)](https://www.versioneye.com/user/projects/52caa89dec1375078b000274)
+[![Dependency Status](https://www.versioneye.com/user/projects/530b13dfec137596d2000006/badge.png)](https://www.versioneye.com/user/projects/530b13dfec137596d2000006)
 
 This bundle will help you to interact with your Freeradius Server SQL storage.
 
