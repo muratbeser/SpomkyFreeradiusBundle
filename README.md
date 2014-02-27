@@ -38,7 +38,7 @@ The preferred way to install this bundle is to rely on Composer. Just check on P
 	{
 	    "require": {
 	        // ...
-	        "spomky/freeradius-bundle": "dev-master"
+	        "spomky-labs/freeradius-bundle": "dev-master"
 	    }
 	}
 
